@@ -29,4 +29,4 @@ I hope to use this space to share discoveries I make, as well as leave instructi
 
 - Better Powershell Skills
 - Microsoft 365
-- - Exchange Online
+    - Exchange Online
