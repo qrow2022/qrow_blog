@@ -33,11 +33,10 @@ jekyll_analytics:
     id: UA-159298740-1
     anonymizeIp: false
 
-
- analytics:
-  	provider: "google-universal"
-  	google:
-    tracking_id: "UA-159298740-1"
+analytics:
+  provider: "google-universal"
+  google:
+  tracking_id: "UA-159298740-1"
    
 
 # Build settings
