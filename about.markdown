@@ -48,3 +48,4 @@ I hope to use this space to share discoveries I make, as well as leave instructi
 - Hack the Box [https://www.hackthebox.eu/](https://www.hackthebox.eu/)
 - Threat Hunting
 - Improving Reverse Engineering Skills
+- Burp Suite
