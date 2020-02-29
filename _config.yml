@@ -28,11 +28,6 @@ url: "https://qrow.technology" # the base hostname & protocol for your site, e.g
 #github_username:  jekyll
 
 
-#jekyll_analytics:
- # GoogleAnalytics:
-  #  id: UA-159298740-1
-  #  anonymizeIp: false
-
 analytics:
   provider: "google-universal"
   google:
