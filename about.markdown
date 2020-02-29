@@ -14,19 +14,30 @@ I hope to use this space to share discoveries I make, as well as leave instructi
 --Qrow
 
 
-# Technologies I've had experience with:
+## Technologies I've had experience with:
 
-## Microsoft
+# Microsoft
 
 - Windows Server Versions 2003 - 2019
 - Active Directory
 - Exchange 2010 - 2016
 - System Center Config Manager 2012r2
-- 
+
+# Miscellaneous
+
+- Android Enterprise / For Work
 
 
-## Currently Exploring
+# Currently Exploring
 
 - Better Powershell Skills
 - Microsoft 365
     - Exchange Online
+    - Sharepoint Online
+    - Intune
+    - Teams
+    - Etc.
+
+# Planned Explorations
+
+- Hack the Box https://www.hackthebox.eu/
