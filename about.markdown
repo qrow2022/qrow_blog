@@ -29,6 +29,7 @@ I hope to use this space to share discoveries I make, as well as leave instructi
 
 - Android Enterprise / For Work
 - Vmware ESX
+- pfSense Firewalls
 
 
 # Currently Exploring
@@ -39,8 +40,11 @@ I hope to use this space to share discoveries I make, as well as leave instructi
     - Sharepoint Online
     - Intune
     - Teams
+    - Azure
     - Etc.
 
 # Planned Explorations
 
 - Hack the Box [https://www.hackthebox.eu/](https://www.hackthebox.eu/)
+- Threat Hunting
+- Improving Reverse Engineering Skills
