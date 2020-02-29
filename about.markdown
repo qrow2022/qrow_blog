@@ -20,13 +20,13 @@ I hope to use this space to share discoveries I make, as well as leave instructi
 
 - Windows Server Versions 2003 - 2019
 - Active Directory
-- sdf
-- sdf
-- sdf
+- Exchange 2010 - 2016
+- System Center Config Manager 2012r2
+- 
 
 
 ## Currently Exploring
 
 - Better Powershell Skills
 - Microsoft 365
-- Exchange Online
+- - Exchange Online
