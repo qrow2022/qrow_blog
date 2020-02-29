@@ -20,12 +20,15 @@ I hope to use this space to share discoveries I make, as well as leave instructi
 
 - Windows Server Versions 2003 - 2019
 - Active Directory
+    - Extensive Group Policy
 - Exchange 2010 - 2016
 - System Center Config Manager 2012r2
+- Hyper-v
 
 # Miscellaneous
 
 - Android Enterprise / For Work
+- Vmware ESX
 
 
 # Currently Exploring
@@ -40,4 +43,4 @@ I hope to use this space to share discoveries I make, as well as leave instructi
 
 # Planned Explorations
 
-- Hack the Box https://www.hackthebox.eu/
+- Hack the Box [https://www.hackthebox.eu/](https://www.hackthebox.eu/)
