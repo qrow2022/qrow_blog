@@ -33,6 +33,14 @@ analytics:
   google:
   tracking_id: "UA-159298740-1"
    
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Qrow"
 
 # Build settings
 theme: minima
