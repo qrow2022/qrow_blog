@@ -28,10 +28,12 @@ url: "https://qrow.technology" # the base hostname & protocol for your site, e.g
 github_username:  qrow2022
 
 
-analytics:
-  provider: "google-universal"
-  google:
-  tracking_id: "UA-159298740-1"
+#analytics:
+ # provider: "google-universal"
+ # google:
+ # tracking_id: "UA-159298740-1"
+ 
+google_analytics: true
 
 disqus:
   shortname: https-qrow-technology

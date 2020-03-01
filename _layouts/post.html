@@ -16,8 +16,10 @@ layout: default
   </header>
 
 
+  <!-- create catagory system to organize and group posts -->
+
   <div class="post-categories">
-    Tags: {% if post %}
+    Categories: {% if post %}
       {% assign categories = post.categories %}
     {% else %}
       {% assign categories = page.categories %}
@@ -33,6 +35,9 @@ layout: default
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
+
+
+  <!-- add disqus commenting -->
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
