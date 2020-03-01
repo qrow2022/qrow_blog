@@ -45,6 +45,7 @@ defaults:
       layout: "post"
       author: "Qrow"
       comments: true
+      permalink: /posts/:year/:month/:day/:title
 
 # Build settings
 theme: minima
