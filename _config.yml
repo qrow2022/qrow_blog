@@ -32,7 +32,10 @@ analytics:
   provider: "google-universal"
   google:
   tracking_id: "UA-159298740-1"
-   
+
+disqus:
+  shortname: https-qrow-technology
+
 defaults:
   -
     scope:
@@ -41,6 +44,7 @@ defaults:
     values:
       layout: "post"
       author: "Qrow"
+      comments: true
 
 # Build settings
 theme: minima
