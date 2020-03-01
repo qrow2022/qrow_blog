@@ -6,10 +6,6 @@ categories:
     - "SSL"
 ---
 
-
-
-<br>
-
 This is a post from my original blog, I've reposted it here.
 
 This blog post is on Forefront TMG, a product that has been fully discontinued by Microsoft, and usually was installed on Server 2008/2008R2 versions, which have not received a TLS 1.3 backport update, instead capping out at 1.2. As well, TLS 1.2 and 1.1 are on the list to be depreciated in 2019 and 2020 as they are older protocols and the new 1.3 is much more secure by default, and faster.
