@@ -28,3 +28,6 @@ Last known by me LineageOS build number working with Nethunter 2020.1: lineage-1
 
 
 I might do a install guide (with pictures!!) later but for now, this is what I've got time for.
+
+
+--Qrow
