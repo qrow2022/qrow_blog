@@ -6,7 +6,7 @@ permalink: /about/
 
 I am a Cyber Security and IT pro.
 
-My formal training is a Batchlors in Cybersecurity, but my experience is being an IT pro.
+My formal training is a bachelor's in Cybersecurity, but my experience is being an IT pro.
 
 I hope to use this space to share discoveries I make, as well as leave instructions for myself if I need them again.
 
