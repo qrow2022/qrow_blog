@@ -34,6 +34,7 @@ github_username:  qrow2022
  # tracking_id: "UA-159298740-1"
  
 google_analytics: true
+google_adsense: true
 
 disqus:
   shortname: https-qrow-technology
