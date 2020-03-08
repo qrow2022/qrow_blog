@@ -25,11 +25,27 @@ I hope to use this space to share discoveries I make, as well as leave instructi
 - System Center Config Manager 2012r2
 - Hyper-v
 
+# \*Nix Systems
+
+- <b>Higher Experience Level</b>
+    - pfSense Firewalls
+    - POP_OS! - (Ubuntu Derivative)
+    - Centos
+- <b>Lower Experience Level</b>
+    - Kali
+    - ParrotOS
+    - Security Onion
+
+# Networking
+
+- Basic Routing and Switching
+    - Mostly Cisco Based
+
+
 # Miscellaneous
 
 - Android Enterprise / For Work
 - Vmware ESX
-- pfSense Firewalls
 
 
 # Currently Exploring
@@ -49,3 +65,4 @@ I hope to use this space to share discoveries I make, as well as leave instructi
 - Threat Hunting
 - Improving Reverse Engineering Skills
 - Burp Suite
+
