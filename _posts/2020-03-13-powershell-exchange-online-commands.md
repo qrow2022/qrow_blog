@@ -22,5 +22,5 @@ Connect-ExchangeOnline -UserPrincipalName <i>useraccount@domain.com</i> -ShowPro
 <pre>
 Get-UnifiedGroup <i>#Returns the List of all groups in Office365</i>
 
-Set-UnifiedGroup -Identity <i>GroupName</i> -EmailAddresses @{Add="newalias@newdomain.com"}
+Set-UnifiedGroup -Identity <i>GroupName</i> -EmailAddresses @{Add="<i>newalias@newdomain.com</i>"}
 </pre>
