@@ -1,2 +1,11 @@
-Contact: security-blog@qrow.technology
-Contact: security@qrow.technology
+# My security email address.
+Contact: mailto:security@qrow.technology
+
+# The location of this security.txt file and the site it is associated with.
+Canonical: https://www.qrow.technology/.well-known/security.txt
+Canonical: https://qrow.technology/.well-known/security.txt
+
+# My spoken and written language.
+Preferred-Languages: en
+
+# This security.txt file was generated in compliance with this draft RFC: https://tools.ietf.org/html/draft-foudil-securitytxt-09
