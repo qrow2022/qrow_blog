@@ -27,11 +27,6 @@ url: "https://qrow.technology" # the base hostname & protocol for your site, e.g
 #twitter_username: jekyllrb
 github_username:  qrow2022
 
-
-#analytics:
- # provider: "google-universal"
- # google:
- # tracking_id: "UA-159298740-1"
  
 google_analytics: true
 google_adsense: true
@@ -49,6 +44,9 @@ defaults:
       author: "Qrow"
       comments: true
       permalink: /posts/:year/:month/:day/:title
+
+
+include: [".well-known"]
 
 # Build settings
 theme: minima
