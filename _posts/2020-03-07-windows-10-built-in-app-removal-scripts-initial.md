@@ -3,7 +3,7 @@ title: Built-in Windows 10 App removal scripts
 
 categories:
     - Microsoft
-    - Powershell
+    - PowerShell
 ---
 
 I built a set of scripts a while back for removing the built in windows 10 apps. Stuff that a normal person might want, but as an IT pro and Cybersecurity person, I don't want. 
