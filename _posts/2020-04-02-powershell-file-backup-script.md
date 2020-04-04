@@ -24,4 +24,7 @@ I went ahead and published the script on my Github, but this was mostly for me t
 ## WARNING
 # The script will delete any files and folders it finds in the destination directory, so make sure that its empty. The script calls this out a few times, so you have been warned.
 
+
+[File Backup Script](https://github.com/qrow2022/Folder-backup-script)
+
 -- Qrow
