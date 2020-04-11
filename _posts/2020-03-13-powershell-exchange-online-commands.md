@@ -5,6 +5,7 @@ categories:
     - Microsoft
     - Exchange Online
     - PowerShell
+    - Cheat Sheets
 ---
 
 Here is a list of Exchange Online Powershell commands that I have had to research to fix some somewhat obscure issues.

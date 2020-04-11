@@ -7,7 +7,7 @@ categories:
 
 ---
 
-At my first job, one thing that my boss wanted me to do was write a macro in Word to backup all the files in a particular directory. I belive it was because he was changing the template that all the files were based on, and he wanted to have the originals in case they got messed up.
+At my first job, one thing that my boss wanted me to do was write a macro in Word to backup all the files in a particular directory. I believe it was because he was changing the template that all the files were based on, and he wanted to have the originals in case they got messed up.
 
 Now before you sound off in the comments:
 

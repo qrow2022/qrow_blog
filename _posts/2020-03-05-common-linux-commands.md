@@ -3,7 +3,7 @@ title: Commonly used linux command reference
 
 categories:
     - Linux
-    - Cheatsheats
+    - Cheat Sheets
 ---
 
 

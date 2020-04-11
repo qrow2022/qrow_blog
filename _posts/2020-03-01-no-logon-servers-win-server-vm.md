@@ -9,24 +9,24 @@ categories:
 
 This is an issue that I have encountered several times before. I help assist teach a Windows class at a University near me and the class goes over Active Directory as part of the teaching. We use Vmware Workstation as our virtualization platform of choice currently.
 
-In the last few sememsters we took up the idea of conducting case studies where the professor and I build broken VMs that the students have to find out what is the problems and repair them. The issues are common minor issues that a seasoned pro would fix quickly, but most of these students have just seen Windows server for the first time and these are difficult issues.
+In the last few semesters we took up the idea of conducting case studies where the professor and I build broken VMs that the students have to find out what is the problems and repair them. The issues are common minor issues that a seasoned pro would fix quickly, but most of these students have just seen Windows server for the first time and these are difficult issues.
 
 What we do is deploy a new vanilla Windows Server instance and install Active Directory, DHCP, DNS or whatever else we have gotten to in the course and then proceed to break items. Such as incorrect DNS entries, invalid IP Configurations, ect.
 Then we export the VM to an OVA file and distribute it to the students where they proceed to import it.
 
-However, ocassonally, we get some issues around unreachable login servers. This is usually tied to the IP configuration not being correct enough for the server to reconize itself and start the AD services.
+However, occasionally, we get some issues around unreachable login servers. This is usually tied to the IP configuration not being correct enough for the server to recognize itself and start the AD services.
 
 Sometimes its the student's fault for not reading directions and putting the VM on the physical network instead of isolated networks. Once the VM has started it cannot recover from the nic being connected wrong even if you shut it down and switch the nic.
 
 Sometimes it just happens for no apparent reason. 
 
-For some of these, particuarly the wrong nic config cause, it can be fixed by just re-importing the OVA and ensuring the nic is configured properly in Vmware first before booting the VM.
+For some of these, particularly the wrong nic config cause, it can be fixed by just re-importing the OVA and ensuring the nic is configured properly in Vmware first before booting the VM.
 
 For the others, there is a fix where I have not yet had not work, but requires someone who knows their navigation and operating system behavior to discover.
 
 ## The Fix
 
-The fix that I have discovered that seems to always work is as follows. What this fix does is give the server time to find itself and reconize that it is its' own DNS server and can allow the AD services to start.
+The fix that I have discovered that seems to always work is as follows. What this fix does is give the server time to find itself and recognize that it is its' own DNS server and can allow the AD services to start.
 
 **The pictures are from a 2012R2 installation, but this should work with 2016 and 2019.**
 
@@ -66,9 +66,9 @@ Open the run box and issue the command `msconfig`:
 
 ![Run MSCONFIG](/assets/images/No_Logon_Servers_Fix/run_box.png)
 
-Then on the Boot tab of the `msconfig` window, make sure to uncheck the Safe boot check box.
+Then on the Boot tab of the `msconfig` window, make sure to un-check the Safe boot check box.
 
-![Uncheck Safemode Checkbox](/assets/images/No_Logon_Servers_Fix/safe_mode_checkbox.png)
+![Un-check Safe mode Checkbox](/assets/images/No_Logon_Servers_Fix/safe_mode_checkbox.png)
 
 Apply and close the `msconfig` box. Go ahead and reboot and the system should work now.
 

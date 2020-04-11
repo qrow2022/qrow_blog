@@ -5,7 +5,7 @@ categories:
     - Linux
 ---
 
-This is a post from my original blog, I've reposted it here.
+This is a post from my original blog, I've re-posted it here.
 
 <br/>
 
@@ -40,7 +40,7 @@ for netblocks.
 
 ## Save the ipset
 
-Next we need to save the `ipset` so that it is available after every restart. `ipsets` are lists that only exist in ram, so they need to be flushed to the disk. Currently our `ipset` is empty, so everytime to make manual changes you will nee to save it.
+Next we need to save the `ipset` so that it is available after every restart. `ipsets` are lists that only exist in ram, so they need to be flushed to the disk. Currently our `ipset` is empty, so every time to make manual changes you will nee to save it.
 
 <pre>
 ipset save <i>setname</i> > /etc/sysconfig/ipset.<i>setname</i> 
@@ -49,7 +49,7 @@ ipset save <i>setname</i> > /etc/sysconfig/ipset.<i>setname</i>
 
 ## Reboot reapplication and auto banning config
 
-Next we need to create the auto-re-apply script so the set is reloaded into memory after boot. You need to create a script for each (unless you are better at scripting than me and can get them to work within a single file. I prefer seperate files so I can disable, enable, and create new files with just small changes.)
+Next we need to create the auto-re-apply script so the set is reloaded into memory after boot. You need to create a script for each (unless you are better at scripting than me and can get them to work within a single file. I prefer separate files so I can disable, enable, and create new files with just small changes.)
 
 I prefer to use `Nano` as my CLI test editor, you can use whatever you prefer.
 

@@ -7,9 +7,9 @@ categories:
 
 ---
 
-This is a post from my original blog, I've reposted it here.
+This is a post from my original blog, I've re-posted it here.
 
-This blog post is on Forefront TMG, a product that has been fully discontinued by Microsoft, and usually was installed on Server 2008/2008R2 versions, which have not received a TLS 1.3 backport update, instead capping out at 1.2. As well, TLS 1.2 and 1.1 are on the list to be depreciated in 2019 and 2020 as they are older protocols and the new 1.3 is much more secure by default, and faster.
+This blog post is on Forefront TMG, a product that has been fully discontinued by Microsoft, and usually was installed on Server 2008/2008R2 versions, which have not received a TLS 1.3 back-port update, instead capping out at 1.2. As well, TLS 1.2 and 1.1 are on the list to be depreciated in 2019 and 2020 as they are older protocols and the new 1.3 is much more secure by default, and faster.
 However, many companies wish to perform inbound and outbound traffic inspection, and TLS 1.3 has yet to allow for this kind of Man in the Middle attacks that many businesses employ as part of their security and employee monitoring strategies.
 
 <br/>
@@ -20,7 +20,7 @@ However, many companies wish to perform inbound and outbound traffic inspection,
 
 These are changes to make to your forefront firewalls to disable the poodle SSLv3 vulnerabilities and to get an A rating on [ssllabs.com](ssllabs.com) for your websites (or from [www.htbridge.com/ssl](www.htbridge.com/ssl)).
 
-*Note: with the depretiation of TLS 1.1 and 1.2, you can no longer receive* **A** *ratings from these test sites until they are disabled and TLS 1.3 is being used instead.*
+*Note: with the depreciation of TLS 1.1 and 1.2, you can no longer receive* **A** *ratings from these test sites until they are disabled and TLS 1.3 is being used instead.*
 
 #### Registry changes to remove SSLv3, and enable higher level TLS protocols.
 
@@ -63,9 +63,9 @@ If you disable TLS 1.0, then you will need to enable the following under group p
 Local Computer\Windows settings\security settings\local policies\security options
 ```
 
-Look for “System Cryptogrophy: use FIPS compliant algorithms for encryption, hashing, and signing.”
+Look for “System Cryptography: use FIPS compliant algorithms for encryption, hashing, and signing.”
 
-This will reallow the local SQL server instance to start and connect properly to forefront to reenable SQL logging, but will disrupt RDP.
+This will re-allow the local SQL server instance to start and connect properly to forefront to re-enable SQL logging, but will disrupt RDP.
 
 
 Install the following patch on the TMG servers and the clients that will be connecting to them for management over RDP
