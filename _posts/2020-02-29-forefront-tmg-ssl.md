@@ -18,7 +18,7 @@ However, many companies wish to perform inbound and outbound traffic inspection,
 
 <br/>
 
-These are changes to make to your forefront firewalls to disable the poodle SSLv3 vulnerabilities and to get an A rating on [ssllabs.com](ssllabs.com) for your websites (or from [www.htbridge.com/ssl](www.htbridge.com/ssl)).
+These are changes to make to your forefront firewalls to disable the poodle SSLv3 vulnerabilities and to get an A rating on [ssllabs.com](https://ssllabs.com) for your websites (or from [www.htbridge.com/ssl](https://www.htbridge.com/ssl)).
 
 *Note: with the depreciation of TLS 1.1 and 1.2, you can no longer receive* **A** *ratings from these test sites until they are disabled and TLS 1.3 is being used instead.*
 
