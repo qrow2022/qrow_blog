@@ -13,6 +13,12 @@ Every once in a while, I need to make a document that has a page in the middle t
 
 2) Select <b>Layout</b> in the Ribbon bar, and then <b>Breaks</b> > <b>Next Page</b>. This seperates your pages into sections where different settings can be applied.
 
-3) Then go ahead and change the orientation.
+3) Then go ahead and change the orientation. The page you're on will change.
+
+To reset back to the previous orientation after your tables/charts/etc.:
 
 4) Add a new page (I use the <b>Page Break</b> function on the <b>Insert</b> tab under the <b>Pages</b> option).
+
+5) Add a new section again, (See step 2).
+
+6) Change the orientation back to what it was previously.
