@@ -71,5 +71,5 @@ sc delete <i>ServiceName</i>
 
 ## Conclusion
 
-And there you have it. If you've done it right, the driver should have been removed.
+And there you have it. If you've done it right, the driver should have been removed, and if that was the only one blocking Memory Integrity from activating, try it again and it should work now.
 
