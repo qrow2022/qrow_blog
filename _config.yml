@@ -51,9 +51,13 @@ include:
 
 # Build settings
 theme: minima
+#theme: jekyll-theme-hydejack
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+
+#minima:
+#  skin: dark
 
 # Exclude from processing.
 # The following items will not be processed, by default.
