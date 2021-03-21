@@ -1,2 +1,4 @@
 User-agent: *
+Disallow: /.well-known/
+
 Sitemap: https://qrow.technology/sitemap.xml
