@@ -4,3 +4,6 @@
 
 layout: home
 ---
+
+
+<div id="homepage_ads" style="right: 0px; position: fixed; text-align: center; top: 25%; width: 175px; height: 325px;">{%- include adsense-homepage.html -%}</div>
