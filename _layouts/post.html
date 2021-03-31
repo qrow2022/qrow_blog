@@ -32,6 +32,9 @@ layout: default
 
   <br>
 
+  <!-- Include adsense ads at bottom of page, after disqus-->
+  {%- include adsense.html -%}
+
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
@@ -42,6 +45,9 @@ layout: default
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
+
+  <!-- Include adsense ads at bottom of page, after disqus-->
+  {%- include adsense.html -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
