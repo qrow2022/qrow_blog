@@ -72,7 +72,7 @@ I hope to use this space to share discoveries I make, as well as leave instructi
 
 <br/>
 
-# Crypto
+# Donate
 
 If you like my content, then why not support me?
 
