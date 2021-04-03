@@ -27,6 +27,10 @@ url: "https://qrow.technology" # the base hostname & protocol for your site, e.g
 #twitter_username: jekyllrb
 github_username:  qrow2022
 
+crypto:
+  btc_address: "bc1q4y38ehm966ppsza33saa9r2fvgl8l8dmsesr0y"
+  eth_address: "0x9D57E5A22EDC3Eb3E6ABa8D278bd4556cf439f29"
+
  
 google_analytics: true
 google_adsense: true

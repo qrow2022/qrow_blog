@@ -64,5 +64,18 @@ I hope to use this space to share discoveries I make, as well as leave instructi
 - Hack the Box [https://www.hackthebox.eu/](https://www.hackthebox.eu/)
 - Threat Hunting
 - Improving Reverse Engineering Skills
-- Burp Suite
+- Burp Suite testing
 
+<br/>
+
+---
+
+<br/>
+
+# Crypto
+
+If you like my content, then why not support me?
+
+<p> {%- if site.crypto.btc_address -%} BTC: {{site.crypto.btc_address}} {%- endif -%} </p>
+
+<p> {%- if site.crypto.eth_address -%} ETH: {{site.crypto.eth_address}} {%- endif -%} </p>
