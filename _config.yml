@@ -49,9 +49,6 @@ defaults:
       comments: true
       permalink: /posts/:year/:month/:day/:title
 
-webrick:
-  headers:
-    X-Frame-Options: "SAMEORIGIN"
 
 include:
  - .well-known
