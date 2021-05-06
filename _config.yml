@@ -54,7 +54,7 @@ include:
  - .well-known
 
 # Build settings
-theme: jekyll-theme-hacker
+theme: minima
 #theme: jekyll-theme-hydejack
 plugins:
   - jekyll-feed
