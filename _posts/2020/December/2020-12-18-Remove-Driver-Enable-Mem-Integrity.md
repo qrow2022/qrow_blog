@@ -26,11 +26,11 @@ The first driver I knew what it was and could remove it and I expected that when
 
 However, the other driver was for an old Logitech mouse that had died on me and I had removed the logitech device customization program, but it left the driver behind. A quick search for the driver's name showed that this was a common issue. Logitech had abandoned essentially this older version of the program and never released updated drivers for proper Windows 10 support (including MemInt support). Instead, they wanted everyone to use the new program Logitech G Hub. 
 
-Well, that was find for me as I had a new logitech mouse on order and was using a backup mouse for the time being. The issue though was how to remove the driver. It didn't showup in Device Manager. Also, there was no docs on how to remove it. So, here's the solution.
+Well, that was fine for me as I had a new logitech mouse on order and was using a backup mouse for the time being. The issue though was how to remove the driver. It didn't showup in Device Manager. Also, there was no docs on how to remove it. So, here's the solution.
 
-I had to use some command line tools to both find and remove it. It was identifying as a kernel based driver, which both scared and didn't surprise me at all. The lack of surprise is due to how deeply integrated and trusted Human Interface Devices (HIDs) are in Windows (thats another blog post). The scare was, "Can I remove this without damaging the kernel and requiring a re-install?"
+I had to use some command line tools to both find and remove it. It was identifying as a kernel based driver, which both scared and didn't surprise me at all. The lack of surprise is due to how deeply integrated and trusted Human Interface Devices (HIDs) are in Windows (that's another blog post). The scare was, "Can I remove this without damaging the kernel and requiring a re-install?"
 
-Thankfully, I was able to remove it without any trouble. However, I don't recommend doing this for graphics drivers. THere is a program called DDU for this that uses Windows's safe mode to perform the removal. In any case, I ask that you please be careful in removing any drivers on your system.
+Thankfully, I was able to remove it without any trouble. However, I don't recommend doing this for graphics drivers. There is a program called DDU for this that uses Windows's safe mode to perform the removal. In any case, I ask that you please be careful in removing any drivers on your system.
 
 ## First, find info about the driver.
 
@@ -40,7 +40,7 @@ This first part is safe as we are just finding info out about the driver. In an 
 driverquery /v | more
 ```
 
-The command `driverquery` runs a program that enumerates and lists all drivers that are installed on the system, irregardless of if they are in use or in-active.
+The command `driverquery` runs a program that enumerates and lists all drivers that are installed on the system, irregardless of if they are in use or inactive.
 The `/v` tells the program to be more verbose about each driver.
 The `| more` will pipe the command through the `more` command which will give us paged output of the command, allowing us to more easily parse the output. You can also pipe the output to a text file:
 
