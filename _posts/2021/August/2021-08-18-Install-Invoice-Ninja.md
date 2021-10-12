@@ -5,6 +5,7 @@ categories:
     - Linux
 ---
 
+
 I was turned on to InvoiceNinja a while ago, and I must say that in my extremely limited use, I like it. Two issues that I have is the current lack in installation documentation for the self-hosted version (particularly around the docker container, I don't have time to figure that out) and the current lack of the proposals section in v5. 
 
 Hopefully both will be fixed at some point soon<sup>(TM)</sup>.
