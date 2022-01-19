@@ -4,8 +4,13 @@ title: Forefront TMG SSL
 categories:
     - "Microsoft"
     - "SSL"
-
 ---
+
+<div style="padding: 20px; background-color: #f44336; color: white; margin-bottom: 15px;">
+    From January of 2020 to January of 2022 (currently), this is my most popular post, of which I am thankful. However, Forefront TMG is NO LONGER SUPPORTED. If you are here because you are running this in production, GET A MODERN FIREWALL! Especially if you are running ISA!
+</div>
+
+
 
 This is a post from my original blog, I've re-posted it here.
 
