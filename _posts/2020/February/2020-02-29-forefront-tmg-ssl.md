@@ -54,6 +54,11 @@ The `Server` keys control when the server or workstation is *Serving* content to
 The `Client` keys control when the server or workstation is getting content from remote locations.
 
 
+<div style="padding: 20px; background-color: #f44336; color: white; margin-bottom: 15px;">
+    Forefront TMG is NO LONGER SUPPORTED. If you are here because you are running this in production, GET A MODERN FIREWALL! Especially if you are running ISA!
+</div>
+
+
 Under the SSL 3.0 server key, and optional client key, add the following dword entries
 `DisabledByDefault = 1`
 
@@ -77,6 +82,10 @@ Install the following patch on the TMG servers and the clients that will be conn
 
 [KB3080079: Update to add RDS support for TLS 1.1 and 1.2 In Windows 7 and Server 2008R2](https://support.microsoft.com/en-us/help/3080079/update-to-add-rds-support-for-tls-1-1-and-tls-1-2-in-windows-7-or-wind)
 
+
+<div style="padding: 20px; background-color: #f44336; color: white; margin-bottom: 15px;">
+    Forefront TMG is NO LONGER SUPPORTED. If you are here because you are running this in production, GET A MODERN FIREWALL! Especially if you are running ISA!
+</div>
 
 For insecure renegotiation, you must have [MS10-049](http://support.microsoft.com/kb/980436) installed.
 
