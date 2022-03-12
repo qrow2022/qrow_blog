@@ -10,7 +10,7 @@ I was turned on to InvoiceNinja a while ago, and I must say that in my extremely
 
 Hopefully both will be fixed at some point soon<sup>(TM)</sup>.
 
-In any case, here is my documentation to install the current version of InvoiceNinja. At the point of writing, its version v5.2.19. I'm using Ubuntu 20.04m with Nginx.
+In any case, here is my documentation to install the current version of InvoiceNinja. At the point of writing, its version v5.2.19. I'm using Ubuntu 20.04 with Nginx.
 
 ## Installation
 
