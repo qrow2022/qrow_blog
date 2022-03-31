@@ -5,7 +5,7 @@ categories:
     - Android
 ---
 
-Back in Agust of 2020, I wrote a post about debloating a new Samsung device for a family member.
+Back in August of 2020, I wrote a post about debloating a new Samsung device for a family member.
 
 Well, I had another family member recently update their phone. This time due to issues with the screen and battery. Once again, debloat to the rescue.
 
