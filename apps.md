@@ -40,11 +40,13 @@ Here is a list of my favorite and recommended apps.
 
 # Google Authenticator - [https://support.google.com/accounts/answer/1066447?hl=en&ref_topic=2954345](https://support.google.com/accounts/answer/1066447?hl=en&ref_topic=2954345)
 
+<br/>
 
 ## Password Vault
 
 # Bitwarden - [https://bitwarden.com/](https://bitwarden.com/)
 
+<br/>
 
 ## Secure file sync
 
