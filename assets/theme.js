@@ -26,9 +26,14 @@ function themeChange() {
 
 document.body.style.backgroundColor = sessionStorage.getItem('bg');
 document.body.style.color = sessionStorage.getItem('cc');
-for (var i = 0; i < headerLinks.length; i++) {
+//for (var i = 0; i < headerLinks.length; i++) {
+//    headerLinks[i].style.color = sessionStorage.getItem('cc');
+//}
+
+for (let i of headerLinks) {
     headerLinks[i].style.color = sessionStorage.getItem('cc');
 }
+
 document.getElementsByClassName("site-title").style.color = sessionStorage.getItem('cc');
 
 }
