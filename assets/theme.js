@@ -1,22 +1,8 @@
 
 // When refreshing the page or first load,
     // check the session storage and see if the
-    // colors are still set. If they are apply them.
-
-    // Set background color to storage color
-document.body.style.backgroundColor = sessionStorage.getItem('bg');
-    // Set standard text to storage color.
-document.body.style.color = sessionStorage.getItem('cc');
-    // Get the title and set it's color.
-var title = document.getElementsByClassName("site-title");
-for (let counter = 0; counter < title.length; counter++) {
-    title[counter].style.color = sessionStorage.getItem('cc');
-}
-    // Get the header links and set their colors.
-var headerLinks = document.getElementsByClassName("page-link");
-for (let counter = 0; counter < headerLinks.length; counter++) {
-    headerLinks[counter].style.color = sessionStorage.getItem('cc');
-}
+    // colors are still set. If they are, then apply them.
+setThemeColors();
 
 
 
@@ -49,19 +35,27 @@ function themeChange() {
     }
 
     // Get the storage values and set the corresponding values.
+    setThemeColors();
+
+}
+
+
+function setThemeColors() {
 
         // Set background color to storage color
     document.body.style.backgroundColor = sessionStorage.getItem('bg');
-        // Set standard text color to storage color.
+        // Set standard text to storage color.
     document.body.style.color = sessionStorage.getItem('cc');
         // Get the title and set it's color.
     var title = document.getElementsByClassName("site-title");
     for (let counter = 0; counter < title.length; counter++) {
         title[counter].style.color = sessionStorage.getItem('cc');
     }
-        // Get the header links and set their colors.
+    // Get the header links and set their colors.
     var headerLinks = document.getElementsByClassName("page-link");
     for (let counter = 0; counter < headerLinks.length; counter++) {
         headerLinks[counter].style.color = sessionStorage.getItem('cc');
     }
+
+
 }
