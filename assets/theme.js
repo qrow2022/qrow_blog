@@ -47,15 +47,15 @@ function setThemeColors() {
         // Set standard text to storage color.
     document.body.style.color = sessionStorage.getItem('cc');
         // Get the title and set it's color.
-    var title = document.getElementsByClassName("site-title");
-    for (let counter = 0; counter < title.length; counter++) {
-        title[counter].style.color = sessionStorage.getItem('cc');
-    }
-    // Get the header links and set their colors.
-    var headerLinks = document.getElementsByClassName("page-link");
-    for (let counter = 0; counter < headerLinks.length; counter++) {
-        headerLinks[counter].style.color = sessionStorage.getItem('cc');
+    var siteTitle = document.getElementsByClassName("site-title");
+    for (let titleCount of siteTitle) {
+        titleCount.style.color = sessionStorage.getItem('cc');
     }
 
+    // Get the header links and set their colors.
+    var headerLinks = document.getElementsByClassName("page-link");
+    for (let linkCount of headerLinks) {
+        linkCount.style.color = sessionStorage.getItem('cc');
+    }
 
 }
