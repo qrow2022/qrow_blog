@@ -53,6 +53,12 @@ defaults:
 include:
  - .well-known
 
+exclude:
+ - assets/markdown-cheat-sheet.md
+ - docker-compose.yml
+ - Gemfile
+ - CNAME
+
 # Build settings
 theme: minima
 #theme: jekyll-theme-hydejack

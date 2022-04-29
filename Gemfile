@@ -19,6 +19,8 @@ gem 'github-pages', group: :jekyll_plugins
 # protect against rubyzip 3.0 breakage
 #gem "rubyzip", "~> 2.3.0"
 
+gem "webrick"
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
 end
