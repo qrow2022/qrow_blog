@@ -1,4 +1,12 @@
 
+var whiteModeBackgroundColor = 'rgb(255, 255, 255)';
+var whiteModeTextColor = '#333';
+
+var darkModeBackgroundColor = 'rgb(6, 23, 37)';
+var darkModeTextColor = '#777';
+
+
+
 // When refreshing the page or first load,
     // check the session storage and see if the
     // colors are still set. If they are, then apply them.
@@ -9,28 +17,40 @@ setThemeColors();
 // When the Dark/Light buttion is pressed,
     // Run this function to change the theme colors.
 function themeChange() {
+
     // Check if the storage for the background color is set to white.
         // If it is, change the storage to dark.
-    if ( sessionStorage.getItem('bg') === 'rgb(255, 255, 255)') {
+    if ( sessionStorage.getItem('bg') == whiteModeBackgroundColor ) {
 
-        sessionStorage.setItem('bg', 'rgb(6, 23, 37)');
-        sessionStorage.setItem('cc', '#777');
+        setDark();
         
     }
     // Check if the storage for the background is nonexistent.
         // If it is, set the storage to dark.
     else if (sessionStorage.getItem('bg') == null || undefined) {
         
-        sessionStorage.setItem('bg', 'rgb(6, 23, 37)');
-        sessionStorage.setItem('cc', '#777');
+        setDark();
 
     }
     // Check if the storage for the background is set to dark.
         // If it is, set the storage to white.
-    else if( sessionStorage.getItem('bg') === 'rgb(6, 23, 37)') {
+    else if( sessionStorage.getItem('bg') == darkModeBackgroundColor) {
 
-        sessionStorage.setItem('bg', 'rgb(255, 255, 255)');
-        sessionStorage.setItem('cc', '#333');
+        setWhite();
+
+    }
+
+    function setWhite() {
+
+        sessionStorage.setItem('bg', whiteModeBackgroundColor);
+        sessionStorage.setItem('cc', whiteModeTextColor);
+
+    }
+
+    function setDark() {
+
+        sessionStorage.setItem('bg', darkModeBackgroundColor);
+        sessionStorage.setItem('cc', darkModeTextColor);
 
     }
 
