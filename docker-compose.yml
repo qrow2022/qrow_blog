@@ -5,6 +5,6 @@ services:
     image: jekyll/jekyll:latest
     command: jekyll serve --watch --force_polling --verbose
     ports:
-      - 10000:4000
+      - 20000:4000
     volumes:
       - .:/srv/jekyll
